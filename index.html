@@ -5,30 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="css/mediaquery.css">
+  <link rel="stylesheet" href="css/media.css">
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <title>Portafolio</title>
 </head>
 <body>
   <header class="header">
-    <a href="#" class="logo">Portfolio</a>
+    <a href="#" class="logo">Portafolio</a>
 
     <nav class="navbar">
       
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Portfolio</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+      <a href="#home" class="active">Inicio</a>
+      <a href="#about">Sobre mi </a>
+      <a href="#services">Cursos</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#contact">Contacto</a>
       
     </nav>
   </header>
   
   <section id="home" class="home">
     <div class="home-content">
-      <h3>Hola Bienvenido</h3>
+      <h3>Mi nombre es </h3>
       <h1>Miguel Anderson Onofre</h1>
-      <h3>Y yo soy  <span id="element"></span></h3>
+      <h3>Y soy  <span id="element"></span></h3>
       
       <div class="home-sci">
         <a target="_blank" href="https://www.linkedin.com/in/miguel-onofre-4a92a4193?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BekZGBU4tQsGJ4xxxTDAeXw%3D%3D"><i class='bx bxl-linkedin'></i></a>
@@ -50,35 +50,72 @@
       <img src="IMG/me.png" alt="IMG">
     </div>
     <div class="about-text">
-      <h2>About <span>Me</span></h2>
-      <h4>Full Stack Developer!</h4>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, assumenda aut? Repudiandae sed voluptas quia cupiditate alias neque voluptate assumenda explicabo fugiat! Hic, deserunt consequuntur? Id ex eveniet facere vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sapiente et veniam recusandae beatae, commodi inventore eligendi aspernatur quidem! Amet aspernatur, dignissimos architecto nisi dicta ducimus vitae porro ex corrupti.</p>
+      <h2>Sobre <span>Mi</span></h2>
+      <h4>Desarrollador Web!</h4>
+      <p>actualmente estoy estudiando ingenieria de software, tengo el titulo como tecnologo en "ADSI" Analisis y desarrollo de sistemas de informacion, tuve la oportunidad de trabajar como desarrollador Backend en la empresa  <a href="https://www.zemoga.com/" target="_blank">Zemoga </a>y en <a href="https://www.cgi.com/co/es" target="_blank">CGI</a> 
 
-      <a href="#skilss" class="btn-box">Mis Ski</a>
+      </p>
+
+      <a href="#services" class="btn-box">Mis habilidades</a>
     </div>
   </section>
 
   <section>
     <div class="services" id="services">
       <div class="container">
-        <h1 class="sub-title">My <span>Services</span></h1>
+        <h1 class="sub-title">Mis <span>Cursos</span></h1>
         <div class="services-list">
+
           <div>
-             <i class=""> <i class='bx bx-code bx-rotate-180' style='color:#00eeff' ></i></i>
-             <h2>PM UX dESIGN </h2>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos veniam accusamus accusantium sequi magni saepe commodi odit ullam eum repudiandae quis, consequuntur repellat animi minima nihil est vero dolorem! Nihil.</p>
-             <a href="#" class="read">Lern More</a>
+            <i class='bx bxs-file-pdf'style='color:#00eeff'></i>              
+            <h2>Introduccion al BackEnd </h2>
+            <span class="container-img">
+              <img src="./IMG/introduccion-backend.PNG" alt="">
+            </span>
+             <a href="courses/diploma-backend-introduccion.pdf" class="read" target="_blank">Descargar</a>
           </div>
+
           <div>
-            <i class=""><i class='bx bx-code bx-rotate-180' style='color:#00eeff' ></i></i>
-            <h2>PM UX dESIGN </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos veniam accusamus accusantium sequi magni saepe commodi odit ullam eum repudiandae quis, consequuntur repellat animi minima nihil est vero dolorem! Nihil.</p>
-            <a href="#" class="read">LernMore</a>
-         </div>
+            <i class='bx bxs-file-pdf'style='color:#00eeff'></i>              
+            <h2>Curso de Java SE </h2>
+            <span class="container-img">
+              <img src="./IMG/JavaSE.PNG" alt="">
+            </span>
+             <a href="courses/diploma-java-basico.pdf" class="read" target="_blank">Descargar</a>
+          </div>
+
+          <div>
+            <i class='bx bxs-file-pdf'style='color:#00eeff'></i>              
+            <h2>Basico JavaScript </h2>
+            <span class="container-img">
+              <img src="./IMG/basico-javascript.PNG" alt="">
+            </span>
+             <a href="courses/diploma-basico-javascript.pdf" class="read" target="_blank">Descargar</a>
+          </div>
+
+          <div>
+            <i class='bx bxs-file-pdf'style='color:#00eeff'></i>              
+            <h2>JavaScript Engine V8 </h2>
+            <span class="container-img">
+              <img src="./IMG/javascriptEngine8.PNG" alt="">
+            </span>
+             <a href="courses/diploma-javascript-navegador.pdf" class="read" target="_blank">Descargar</a>
+          </div>
+
+          <div>
+            <i class='bx bxs-file-pdf'style='color:#00eeff'></i>              
+            <h2>Manipulacion del DOM </h2>
+            <span class="container-img">
+              <img src="./IMG/manipulacionDom.PNG" alt="">
+            </span>
+             <a href="courses/diploma-backend-introduccion.pdf" class="read" target="_blank">Descargar</a>
+          </div>
+
          <div>
-          <i class=""><i class='bx bx-code bx-rotate-180' style='color:#00eeff' ></i></i>
-          <h2>PM UX dESIGN </h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos veniam accusamus accusantium sequi magni saepe commodi odit ullam eum repudiandae quis, consequuntur repellat animi minima nihil est vero dolorem! Nihil.</p>
+          <i class='bx bxs-file-pdf'style='color:#00eeff'></i>
+          <h2>Javascript y Node.js </h2>
+          <p> Curso de Javascript, aprendiendo todas las tegnologias que son de primera necesidad para un desarrollador de software. Con este conocimiento Se podra construir aplicaciones en el frontend y también en el backend.
+          </p>          
           <a href="#" class="read">Lern More</a>
        </div>
         </div>
@@ -148,7 +185,7 @@
     <section id="portfolio" class="portfolio">
       <div id="portfolio" class="project">
         <div class="main-text" id="project">
-          <h2>Latests <span>Project</span></h2>
+          <h2>Mis <span>Proyectos</span></h2>
 
         <div class="portfolio-content">
 

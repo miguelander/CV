@@ -1,6 +1,6 @@
 
 let typed = new Typed('#element', {
-    strings: ["Web developer Full Stack..."],
+    strings: ["Desarrollador Web..."],
     typeSpeed:100,
     backSpeed:100,
     backDelay:100,

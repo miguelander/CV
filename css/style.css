@@ -246,7 +246,9 @@ ul{
     color:  #000000;
     font-size: 12px;
     margin-top: 20px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .read{
@@ -701,4 +703,16 @@ section{
     }
 }
 
-/* media query -------------------------------- */
+
+.container-img{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-img img{
+    overflow: hidden;
+    width: 250px;
+}
