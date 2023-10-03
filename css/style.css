@@ -192,7 +192,7 @@ ul{
 
 /* section services */
 
-#services{
+.services{
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4;
@@ -211,6 +211,20 @@ ul{
 .container{
     padding: 90px;
 }
+
+.container-img{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-img img{
+    overflow: hidden;
+    width: 250px;
+}
+
 
 .services-list{
     display: grid;
@@ -299,13 +313,17 @@ section{
 /* container skills Start*/
 
 .container-skills{
-     margin: 0px auto;
+    margin: 0px auto;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
     justify-content: center;
     align-items: center;    
+}
+
+.container-skills .box:hover{
+    transform: translateY(-15px);
 }
 
 .container-skills .box{
@@ -324,6 +342,7 @@ section{
     box-shadow: 1px 1px 20px #012290f7,
     1px 1px 40px #0053b8;
 }
+
 
 .container-skills .box .circle{
     position: relative;
@@ -475,11 +494,13 @@ section{
 
 .contact{
     display: grid;
+  
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 3rem;
     padding-left: 30px;
     margin-top: 130px;
+
 }
 
 .contact-text h2{
@@ -494,25 +515,28 @@ section{
 
 .contact-text h4{
     margin: 15px 0;
+    padding-bottom: 0px;
     color: rgb(228,228,228);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
 }
 
 .contact-text p{
     color: rgb(177, 177, 177);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 30px;
     margin-bottom: 2rem;
 }
 
 .contact-list{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .contact-list li{
     margin-bottom: 10px;
     display: block; 
+    letter-spacing: 2px;
+    font-size: 25px;
 }
 
 .contact-list li a:hover{
@@ -524,12 +548,12 @@ section{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     background: transparent;
     border: 2px solid #0ef;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 40px;
     color: #0ef;
     margin: 30px 15px 30px 0;
     transition: .5s ease;    
@@ -612,7 +636,8 @@ section{
     text-align: center;
     padding: 25px 0;
     background: rgb(7,85,91);
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 20px;
     margin-top: 70px;
 }
 
@@ -704,15 +729,4 @@ section{
 }
 
 
-.container-img{
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
-.container-img img{
-    overflow: hidden;
-    width: 250px;
-}

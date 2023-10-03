@@ -71,4 +71,23 @@
     }
 }
 
+@media (max-width:600px){
+    .contact{
+        padding: 10px;
+    }
+    .contact-text h2{
+        font-size: 80px;
+        
+    }
+    .contact-text p {
+        font-size: 15px;
+        max-width: 400px;
+    }
+
+    .main-text h2{
+        font-size: 80px
+    }
+
+    
+}
 
